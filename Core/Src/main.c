@@ -146,6 +146,8 @@ int main(void)
 		else if (ADCMode ==1)
 		{
 				a=1;
+				ADCOutputConverted = (((ADCChannel[2].data)*3.3/4096)-0.76)/0.0025 + 25;
+
 		}
 
 	}
